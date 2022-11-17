@@ -33,7 +33,7 @@ body {
 }
 .img1 {
   width: 19%; height: 250px;
-  transition: 2s;
+  transition: 5s;
   border-radius:10px;
 }.img1:hover{
     border-radius:50px;
