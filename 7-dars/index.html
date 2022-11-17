@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <script>
+        function toggleFullScreen() {
+            var doc = window.document;
+            var docEl = doc.documentElement;
+
+            var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+            var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+            var vid = document.getElementById("videof");
+
+            if (!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+                requestFullScreen.call(docEl);
+            }
+            else {
+                cancelFullScreen.call(doc);
+            }
+            var x = document.getElementById("videof");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+            var x = document.getElementById("vi1");
+            if (x.style.display === "block") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            var x = document.getElementById("goFS");
+            if (x.style.display === "block") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+                vid.autoplay = true;
+                vid.load();
+            }
+        }
+
+    </script>
+    <div align="center" class="lt"><br><br><br><br><br><br>
+        <img src="img/Ecxd.gif" id="vi1">
+    </div>
+    <div align="center">
+
+        <button id="goFS" onclick="toggleFullScreen()" class="button1">Boshlash</button>
+
+        <video hidden id="videof" class="vid1" src="Videos/Asus.mp4">
+        </video>
+    </div>
+    <div>
+
+    </div>
+</body>
+
+</html>
