@@ -1,0 +1,43 @@
+body {
+  background-color: #EAEFF1;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.box {
+  background-color: azure;
+  width: 300px;
+  height: auto;
+  border: 2px solid rgb(208, 208, 208);
+  border-radius: 3%;
+  padding: 10px;
+  text-align: left;
+}
+.box img {
+  width: 100%;
+  border-radius: 3%;
+  margin-bottom: 10px;
+}
+.box span {
+    font-size: small;
+  color: rgb(146, 146, 146);
+  border-radius: 25px;
+  border: 1px solid rgb(146, 146, 146);
+  padding: 3px 15px;
+}
+.box p {
+  margin-bottom: 15px;
+}
+.box div {
+  padding: 5px;
+  margin: 5px;
+}
+.center {
+  text-align: center;
+}
+.box div a {
+  background-color: #d8e6f6;
+  text-align: center;
+  color: #449bff;
+  border-radius: 30px;
+  padding: 15px 30px;
+}
