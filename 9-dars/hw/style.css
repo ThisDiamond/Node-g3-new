@@ -1,30 +1,31 @@
 body {
-  background-color: #EAEFF1;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #eaeff1;
+  font-family: sans-serif;
 }
 .box {
   background-color: azure;
   width: 300px;
   height: auto;
-  border: 2px solid rgb(208, 208, 208);
-  border-radius: 3%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 10px;
   padding: 10px;
   text-align: left;
 }
 .box img {
   width: 100%;
-  border-radius: 3%;
+  border-radius: 10px;
   margin-bottom: 10px;
 }
 .box span {
-    font-size: small;
+  font-size: small;
   color: rgb(146, 146, 146);
   border-radius: 25px;
   border: 1px solid rgb(146, 146, 146);
-  padding: 3px 15px;
+  padding: 5px 18px;
 }
 .box p {
+  color:#252525;
   margin-bottom: 15px;
 }
 .box div {
