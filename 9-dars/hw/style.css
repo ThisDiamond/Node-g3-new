@@ -3,6 +3,7 @@ body {
   font-family: sans-serif;
 }
 .box {
+  margin-top: 200px;
   background-color: azure;
   width: 300px;
   height: auto;
