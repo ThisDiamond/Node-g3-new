@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+.logo {
+  float: left;
+  height: 70px;
+}
+.nav {
+}
+.nav-item {
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    background-image: url(img/main-back.jpg);
+}
