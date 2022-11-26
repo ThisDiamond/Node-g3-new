@@ -43,7 +43,7 @@ main {
   background-position-x: right;
   background-position-y: bottom;
   margin:0 60px ;
-  padding:80px 0;
+  padding:120px 0;
 }
 .lorem{
     color: #25AAE1;
@@ -86,4 +86,7 @@ footer{
     color: white;
     width: 300px;
     padding: 30px;
+}
+.step h3{
+  margin: 0px;
 }
