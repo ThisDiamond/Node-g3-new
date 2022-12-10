@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Flex</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h2>Windmill</h2>
+      </div>
+      <div>
+        <input type="text" placeholder="Search for projects" class="search" />
+      </div>
+      <div class="userbox">
+        <a href=""
+          ><img src="img/icon/icons8-night-96.png" alt="" class="user-not-icon"
+        /></a>
+        <a href=""
+          ><img src="img/icon/icons8-bell-96.png" alt="" class="user-not-icon"
+        /></a>
+        <a href=""
+          ><img
+            src="img/icon/icons8-user-circle-96.png"
+            alt=""
+            class="user-icon"
+        /></a>
+      </div>
+    </header>
+    <main>
+      <aside>
+        <ul class="nav">
+          <li class="nav-item">
+            <i class="fa-solid fa-house"></i><a href="">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <i class="fa-solid fa-align-justify"></i><a href="">Forms</a>
+          </li>
+          <li class="nav-item">
+            <i class="fa-regular fa-credit-card"></i><a href="">Cards</a>
+          </li>
+          <li class="nav-item">
+            <i class="fa-solid fa-chart-line"></i><a href="">Charts</a>
+          </li>
+          <li class="nav-item">
+            <i class="fa-solid fa-arrow-pointer"></i><a href="">Buttons</a>
+          </li>
+          <li class="nav-item">
+            <i class="fa-sharp fa-solid fa-copy"></i><a href="">Modals</a>
+          </li>
+          <li class="nav-item">
+            <i class="fa-solid fa-table-list"></i><a href="">Tables</a>
+          </li>
+          <li class="nav-item">
+            <i class="fa-solid fa-table-columns"></i><a href="">Pages</a>
+          </li>
+        </ul>
+        <a href="" class="create">Create account +</a>
+      </aside>
+      <section>
+        <h1>Dashboard</h1>
+        <div class="github">
+          <i class="fa-solid fa-star"></i>
+          Star this project on Github
+          <span class="view-more">View more</span>
+        </div>
+        <div class="statistic">
+          <div class="statistic-box">
+            <div class="stat-img-box">
+              <img
+                src="img/icon/icons8-people-96 (1).png"
+                alt=""
+                class="stat-img"
+              />
+            </div>
+            <div class="stat-title">
+              <h4>Total clients</h4>
+              <span>6389</span>
+            </div>
+          </div>
+          <div class="statistic-box">
+            <div class="stat-img-box">
+              <img
+                src="img/icon/icons8-wallet-100.png"
+                alt=""
+                class="stat-img"
+              />
+            </div>
+            <div class="stat-title">
+              <h4>Account balance</h4>
+              <span>$ 50,000.55</span>
+            </div>
+          </div>
+          <div class="statistic-box">
+            <div class="stat-img-box">
+              <img
+                src="img/icon/icons8-shopping-mall-96.png"
+                alt=""
+                class="stat-img"
+              />
+            </div>
+            <div class="stat-title">
+              <h4>New sales</h4>
+              <span>450</span>
+            </div>
+          </div>
+          <div class="statistic-box">
+            <div class="stat-img-box">
+              <img src="img/icon//icons8-sms-96.png" alt="" class="stat-img" />
+            </div>
+            <div class="stat-title">
+              <h4>Pending contacts</h4>
+              <span>55</span>
+            </div>
+          </div>
+        </div>
+        <div class="clients">
+          <table>
+            <tr>
+              <th>Client</th>
+              <th>Amount</th>
+              <th>Status</th>
+              <th>Date</th>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="img/icon/icons8-user-circle-96.png"
+                  alt=""
+                  class="client-img"
+                />
+                <h3 class="client-name">Chandler Jacobi</h3>
+                <p class="client-p">Direct Security excutive</p>
+              </td>
+              <td>$ 990.5</td>
+              <td><span class="primary">primary</span></td>
+              <td>01.01.2020</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="img/icon/icons8-user-circle-96.png"
+                  alt=""
+                  class="client-img"
+                />
+                <h3 class="client-name">Chandler Jacobi</h3>
+                <p class="client-p">Direct Security excutive</p>
+              </td>
+              <td>$ 990.5</td>
+              <td><span class="danger">danger</span></td>
+              <td>01.01.2020</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="img/icon/icons8-user-circle-96.png"
+                  alt=""
+                  class="client-img"
+                />
+                <h3 class="client-name">Chandler Jacobi</h3>
+                <p class="client-p">Direct Security excutive</p>
+              </td>
+              <td>$ 990.5</td>
+              <td><span class="success">Seccess</span></td>
+              <td>01.01.2020</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="img/icon/icons8-user-circle-96.png"
+                  alt=""
+                  class="client-img"
+                />
+                <h3 class="client-name">Chandler Jacobi</h3>
+                <p class="client-p">Direct Security excutive</p>
+              </td>
+              <td>$ 990.5</td>
+              <td><span class="warning">Warning</span></td>
+              <td>01.01.2020</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="img/icon/icons8-user-circle-96.png"
+                  alt=""
+                  class="client-img"
+                />
+                <h3 class="client-name">Chandler Jacobi</h3>
+                <p class="client-p">Direct Security excutive</p>
+              </td>
+              <td>$ 990.5</td>
+              <td><span class="success">Seccess</span></td>
+              <td>01.01.2020</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="img/icon/icons8-user-circle-96.png"
+                  alt=""
+                  class="client-img"
+                />
+                <h3 class="client-name">Chandler Jacobi</h3>
+                <p class="client-p">Direct Security excutive</p>
+              </td>
+              <td>$ 990.5</td>
+              <td><span class="success">Seccess</span></td>
+              <td>01.01.2020</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="img/icon/icons8-user-circle-96.png"
+                  alt=""
+                  class="client-img"
+                />
+                <h3 class="client-name">Chandler Jacobi</h3>
+                <p class="client-p">Direct Security excutive</p>
+              </td>
+              <td>$ 990.5</td>
+              <td><span class="success">Seccess</span></td>
+              <td>01.01.2020</td>
+            </tr>
+            <tr>
+              <td>
+                <img
+                  src="img/icon/icons8-user-circle-96.png"
+                  alt=""
+                  class="client-img"
+                />
+                <h3 class="client-name">Chandler Jacobi</h3>
+                <p class="client-p">Direct Security excutive</p>
+              </td>
+              <td>$ 990.5</td>
+              <td><span class="success">Seccess</span></td>
+              <td>01.01.2020</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

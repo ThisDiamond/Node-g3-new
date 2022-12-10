@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+     var x = document.getElementById("img1");
+    var b = 0;
+    function fifo() {
+        if (b == 0) {
+            document.getElementById("img01").width = 250 + Math.floor(Math.random() * 250);
+            b = 1;
+        }
+        else {
+            document.getElementById("img01").width = 250 + Math.floor(Math.random() * 250);
+            b = 0;
+        }
+    }
+</script>
+
+<body>
+    <div align="center">
+        <div>
+            <h1 style="color:white">Gallery photos</h1>
+        </div>
+        <div>
+            <img id="img01" class="img1"
+                src="https://i.pinimg.com/originals/e8/87/3b/e8873bd53012c419deee930ae7abdeb2.jpg">
+            <img id="img01" class="img1"
+                src="https://phonoteka.org/uploads/posts/2021-05/1622260582_30-phonoteka_org-p-mir-snov-art-krasivo-32.jpg">
+            <img id="img01" class="img1"
+                src="https://i.pinimg.com/originals/c7/38/a8/c738a8f26940f9179fd70f5626bb8537.jpg">
+            <img id="img01" class="img1"
+                src="https://www.wallpaperflare.com/static/241/530/430/artwork-fantasy-art-aquasixio-female-wallpaper.jpg">
+            <img id="img01" class="img1" src="https://artfiles.alphacoders.com/749/74952.jpg">
+            <img id="img01" class="img1"
+                src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614719399_26-p-foni-dlya-artov-28.jpg">
+            <img id="img01" class="img1" src="https://artfiles.alphacoders.com/106/106784.jpg">
+            <img id="img01" class="img1"
+                src="https://forum.velokamensk.ru/uploads/monthly_2019_05/9262e22f3a42e92fdf332484635f55d0.jpg.f83f559b89811a8ccfaf0cc769b778c5.jpg">
+            <img id="img01" class="img1"
+                src="https://images.wallpaperscraft.ru/image/single/rebenok_derevo_odinochestvo_127403_3600x2400.jpg">
+            <img id="img01" class="img1"
+                src="https://cdn.theinductive.com/wp-content/uploads/surreal-painting_1685578.jpg">
+        </div>
+    </div>
+<div>
+    <button id="fifo()" >Reset</button>
+</div>
+</body>
+
+</html>

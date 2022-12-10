@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+.boxf {
+  margin-left: auto;
+}
+.box {
+  background-color: darkorange;
+  width: 600px;
+  border: 2px solid black;
+  padding: 20px 10px;
+}
+.box img {
+  width: 590px;
+  border: 5px inset orange;
+}
+.box p {
+  height: 100px;
+  padding: 10px 5px;
+  border: 5px dashed orange;
+  background-color: rgb(242, 242, 146);
+  overflow-y: scroll;
+}

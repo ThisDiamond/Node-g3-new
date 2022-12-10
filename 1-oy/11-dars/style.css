@@ -1,0 +1,136 @@
+body {
+  font-family: sans-serif;
+}
+.rect {
+  width: 300px;
+  height: 250px;
+  background-color: crimson;
+}
+.rect:hover {
+  background-color: rgb(108, 12, 31);
+}
+.rect:active {
+  background-color: rgb(108, 84, 12);
+}
+
+.button {
+  display: inline-block;
+  background-color: crimson;
+  padding: 12px 24px;
+  color: white;
+  transition: 1s;
+}
+li {
+  transition: 1s;
+}
+.button:hover {
+  background-color: rgb(97, 13, 30);
+  transition: 1s;
+}
+.button:active {
+  background-color: rgb(62, 8, 19);
+  border-radius: 10px;
+  transition: 500ms;
+}
+
+ul {
+  background-color: aliceblue;
+  padding: 10px;
+  list-style-type: none;
+}
+li {
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  margin-top: 5px;
+  border-left: 3px solid #ff5733;
+}
+li:first-child {
+  border-left: 3px solid #6495ed;
+}
+li:last-child {
+  border-left: 3px solid #fecd3a;
+}
+/* nth tanlangan elementda stil berish*/
+li:nth-child(2) {
+  border-left: 3px solid #fecd3a;
+}
+/* odd - Faqat toq elemetlar rangi toqga ozgaradi*/
+li:nth-child(odd) {
+  color: #137c3d;
+}
+/* Pseudo ni combinatsiya qilish*/
+li:nth-child(odd):hover {
+  background-color: #ffe8a3;
+}
+
+li:nth-child(even):hover {
+  background-color: #ffaca3;
+  text-align: center;
+}
+/* even - Faqat juft elemetlar rangi toqga ozgaradi*/
+li:nth-child(even) {
+  color: #de3163;
+}
+li:nth-of-type(2n + 1) {
+  background-color: crimson;
+  color: white;
+  border-left: 3px solid #ffb700;
+}
+
+/* Pseudo element */
+/* Html elementdan oldin element qoyish */
+
+h1::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: crimson;
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 3px;
+  background-color: #137c3d;
+  margin-left: auto;
+}
+
+p::first-letter {
+  font-size: 36px;
+  color: #de3163;
+  font-style: italic;
+}
+p::first-line {
+  text-decoration-line: underline;
+  text-decoration-color: crimson;
+  text-decoration-style: solid;
+}
+
+/* transition */
+li {
+  transition: all 2s 1s ease;
+}
+li:nth-of-type(2n + 1) {
+  background-color: rgb(20, 176, 203);
+  color: white;
+  border-left: 3px solid #ffb700;
+  transition: all 2s 1s ease;
+}
+li:nth-of-type(2n + 1):hover {
+  background-color: rgb(20, 176, 203);
+  color: white;
+  border-left: 3px solid #ffb700;
+}
+.float-btn {
+  background-color: #de3163;
+  color: white;
+  display: inline-block;
+  padding: 12px 24px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}

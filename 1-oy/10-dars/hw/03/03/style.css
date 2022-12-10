@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.colorbluetext {
+  color: #0757c8;
+}
+header {
+  padding: 30px;
+  height: 60px;
+}
+.logo {
+  height: 40px;
+  float: left;
+  padding: 12px;
+}
+.nav {
+  padding: 0;
+  float: right;
+}
+.nav-item {
+  display: inline-block;
+  list-style-type: none;
+}
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  padding: 12px 24px;
+}
+.contact-us {
+  background-color: #0757c8;
+  padding: 12px 24px;
+  margin-left: 50px;
+  border: none;
+  border-radius: 5px;
+}
+.contact-us a {
+  color: white;
+}
+
+main {
+  background-image: url(img/main-back1.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+  background-size: 110%;
+  padding: 100px 200px;
+}
+.lostdatabox {
+  margin: 100px 0;
+}
+.lostdata {
+  font-size: 84px;
+  margin: 0;
+  font-weight: 700;
+}
+.span {
+  color: #0757c8;
+}
+.lorem {
+  color: rgb(121, 121, 121);
+}
+.main-contact-us {
+  background-color: #0757c8;
+  padding: 12px 24px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.main-contact-us-number {
+  color: #0757c8;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 700;
+}
+.who-we-you {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+}
+.who-we-you-img {
+  border-radius: 20px;
+  width: 500px;
+  margin: 20px;
+  margin-right: 50px;
+}
+.who-we-you-h1 {
+  font-size: 32px;
+}
+.who-we-you-p {
+}
+.who-we-you-text {
+  padding: 30px;
+  display: inline-block;
+  width: 600px;
+}
+.who-we-you-box {
+  background-color: #e8feea;
+  display: inline-block;
+  border-radius: 30px;
+  padding: 0 40px;
+  margin-left: 30px;
+}
+.who-we-you-box h2 {
+  margin: 5px;
+}
+.who-we-you-box p {
+  margin: 10px;
+}
+.who-we-you-box-icon {
+  float: left;
+  width: 48px;
+  margin-top: 10px;
+  margin-left: -50px;
+}
+.partners {
+  margin: 50px 0;
+}
+.partner {
+  height: 80px;
+  margin: 25px 0;
+  margin-left: 30px;
+}
+.services {
+  margin-top: 100px;
+}
+.services p {
+  color: #4b4b4b;
+}
+.services-item {
+  display: inline-block;
+  background-color: rgb(222, 222, 222);
+  margin: 15px;
+  width: 250px;
+  padding: 60px 25px;
+  border-radius: 10px;
+}
+
+.services-item-img {
+  width: 70px;
+}
