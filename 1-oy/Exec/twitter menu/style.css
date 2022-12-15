@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  display: inline-block;
+  width: 26.5px;
+  margin: 10px;
+  fill: rgb(174, 174, 174);
+}
+
+#svg1{
+}
+.svg2 {
+  display: inline-block;
+  width: 26.5px;
+  margin: 10px;
+  fill: black;
+}
+#nav {
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #15202b;
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  border-radius: 35px;
+  transition: 200ms;
+}
+#nav:hover {
+  align-items: flex-start;
+  width: 220px;
+  padding: 8px;
+  transition: 500ms;
+}
+
+.nav-item span {
+  display: none;
+}
+#nav:hover span {
+  display: inline;
+  transition: 500ms;
+}
+#nav.active span {
+  display: inline;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: aqua;
+}
+.active {
+  font-weight: 700;
+}
+.tweet {
+  width: 48px;
+}
+.tweetbutton {
+  display: none;
+  background-color: #1d9bf0;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  padding: 15px 80px;
+  border: 0;
+  border-radius: 100px;
+  transition: 500ms;
+}
+
+#nav:hover .tweet {
+  display: none;
+}
+#nav:hover .tweetbutton {
+  transition: 500ms;
+  display: inline-block;
+  margin: 8px;
+}
+.changethemeoq {
+  width: 250px;
+  position: absolute;
+  top: 30px;
+  right: 550px;
+  background-color: #1d9bf0;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  border: 0;
+  border-radius: 100px;
+}
+.changethemeqora {
+  width: 250px;
+  position: absolute;
+  top: 80px;
+  right: 550px;
+  background-color: #1d9bf0;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  border: 0;
+  border-radius: 100px;
+}
+

@@ -1,0 +1,111 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+body {
+  font-family: sans-serif;
+}
+/* Position Static Relative Absolute Sticy  */
+.wrapper {
+  /*
+  background-color: rgb(0, 253, 169);
+  width: 600px;
+  height: 800px;
+*/
+}
+
+header {
+  background-color: orange;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header.red {
+  background-color: red;
+}
+header.yellow {
+  background-color: yellow;
+}
+.box {
+  width: 72px;
+  height: 72px;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+.box i {
+  display: inline-block;
+  background-color: rgb(205, 205, 205);
+  padding: 15px;
+  font-size: 32px;
+  color: white;
+  border-radius: 50%;
+}
+.badge {
+  background-color: crimson;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  position: absolute;
+  top: -7px;
+  right: 0;
+  border-radius: 50%;
+  font-weight: 700;
+}
+/* Position end  */
+/**************************************************/
+/* Transform  / translate scale rotate skew */
+.boxtransform {
+  background-color: crimson;
+  width: 150px;
+  height: 150px;
+  transition: 500ms;
+  /* transform: rotate(45deg);*/ /* Rotate */
+  /* transform: translate(150px, 150px);*/ /* Translate */
+  /* transform: scale(1.5) rotate(30deg) translate(150px, 150px);*/ /* Scale */
+  /* transform: skew(-10deg) scale(0.5) rotate(25deg) translate(550px, 150px);*/
+}
+/* Transform end */
+/**************************************************/
+/* Transition */
+.boxtransition {
+  background-color: crimson;
+  width: 150px;
+  height: 150px;
+  transition-property: all;
+  transition-delay: 0; /* Animatsiya boshlanmasdan oldigi pauza*/
+  transition-duration: 1s; /* Animatsiya qancha vaqt davom etishi*/
+  transition-timing-function: ease; /* Animatsiya qanday bo'lishi */
+  margin: 50px 0;
+}
+.boxtransition.big {
+  background-color: rgb(97, 13, 30);
+  width: 180px;
+  height: 180px;
+}
+
+.boxtransition:hover {
+  transform: scale(1.2) rotate(180deg) translate(5%, 10%);
+  border-radius: 25px;
+  width: 180px;
+  height: 180px;
+}
+.btn {
+  background-color: crimson;
+  color: white;
+  padding: 10px 25px;
+  border: 0;
+  border-radius: 10px;
+  transition: all 100ms 200ms ease;
+}
+
+.btn:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  transform: translateY(-10px);
+}
+.btn:active {
+  background-color: orange;
+  transform: translateY(-5px);
+}

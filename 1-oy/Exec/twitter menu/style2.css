@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 30px;
+  padding: 0;
+  font-family: sans-serif;
+}
+svg {
+  display: inline-block;
+  width: 26.5px;
+  margin: 10px;
+  fill: white;
+}
+i {
+  color: #15202b;
+}
+.brand {
+  color: rgb(5, 114, 191);
+  width: 48px;
+}
+.aside {
+  width: 250px;
+  border: 1px solid;
+  border-radius: 10px;
+  color: black;
+
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.btn {
+  background-color: rgb(224, 217, 217);
+  border-radius: 13px;
+  border: 2px solid black;
+  text-decoration: none;
+  padding: 15px 80px;
+  font-size: medium;
+  font-size: smaller;
+  background: linear-gradient(
+    -45deg,
+    rgb(219, 56, 56),
+    rgb(181, 38, 181),
+    #6565d3,
+    violet
+  );
+  background-size: 450% 400%;
+  border: 0;
+  outline: 0;
+  animation: gradient 15s ease infinite;
+  transition: 0.5s;
+  color: white;
+  font-weight: 700;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.btn.hover {
+  background-color: blueviolet;
+  transition: 0.5s;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #15202b;
+  width: 220px;
+  list-style-type: none;
+  margin: 0;
+  border-radius: 30px;
+
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  color: white;
+}
+
+.menu-item.active {
+    color: white;
+    font-weight: 700;
+}
