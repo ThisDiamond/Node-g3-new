@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  transition: 800ms;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+aside {
+  background-color: aliceblue;
+  min-width: 300px;
+  padding: 10px;
+}
+.nav {
+  list-style-type: none;
+}
+.nav-item {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+  font-weight: bold;
+}
+main {
+  padding: 20px;
+  flex-grow: 1;
+}
+.content {
+  width: 80%;
+  margin: 0 auto;
+  transition: width 0.5s 0s ease;
+}
+aside .nav .nav-item i:hover {
+  -webkit-text-stroke: 1px;
+}
+
+.cards {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    width: 90%;
+  }
+  .cards{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  aside {
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .nav {
+    display: flex;
+  }
+  .nav-item {
+    flex-grow: 1;
+  }
+  .cards{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 480px) {
+  aside .nav .nav-item i {
+    font-size: 28px;
+  }
+  aside .nav .nav-item span {
+    display: none;
+  }
+  .cards{
+    grid-template-columns: 1fr;
+  }
+}

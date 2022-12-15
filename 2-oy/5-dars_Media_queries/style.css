@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 1000ms;
+}
+body {
+  font-family: sans-serif;
+}
+
+header {
+  font-size: 16px;
+}
+main {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.card {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid rgb(84, 84, 84);
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 24px;
+  }
+  main {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/*
+    > 1024: main-width:70%;
+    main-width:85%
+*/
