@@ -130,3 +130,16 @@ export {};
 // son_yuzliklar; son_unliklar; son_birliklar
 // let natija = son_yuzliklar*100+son_birliklar*10+son_unliklar
 // console.log(natija)
+
+// 17 // 18 //
+
+// 19 //
+// let N = 86400
+// let minut = N / 60
+// console.log('Minut: ', minut)
+
+// // 20 //
+// let N = 600;
+// let minut = N / 60;
+// let soat = minut / 60;
+// console.log("To'la soatlar soni: ", soat)
