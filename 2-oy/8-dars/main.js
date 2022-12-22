@@ -40,9 +40,19 @@
 // console.log(a % 2 == 1 && b % 2 == 1);
 
 // 9 //
-// let a = 4;
-// let b = 3;
-// console.log(a % 2 == 1 || b % 2 == 1);
+let a = 2;
+let b = 10;
+let aa = true
+let bb = true
+
+if (a % 2 == 0) {
+   aa = (b % 2 == 1)
+}else{
+   bb = (b % 2 == 1)
+}
+
+
+a % 2 == 0 || b % 2 == 0;
 
 // 10 //
 // let a = 4;
@@ -104,12 +114,12 @@
 // let b = 1;
 // let c = 1;
 // console.log(
-//     ((a = b) && (a = c)) || 
-//     ((b = a) && (b = c)) || 
+//     ((a = b) && (a = c)) ||
+//     ((b = a) && (b = c)) ||
 //     ((c = a) && (c = b))
 // );
 
-// 19 // 
+// 19 //
 // let A = 0;
 // let B = 1;
 // let C = 1;
@@ -118,9 +128,7 @@
 // )
 
 // 20 //
-let a = 564;
-let yuz = Math.floor(a/100) 
-let on = Math.floor(a-(yuz*100)/10) 
-console.log(
-    on
-)
+// let a = 564;
+// let yuz = Math.floor(a / 100);
+// let on = Math.floor(a - (yuz * 100) / 10);
+// console.log(on);
