@@ -89,8 +89,8 @@
 // }
 
 // 10 //
-// let a = 15;
-// let b = 25;
+// let a = 75;
+// let b = 15;
 // if (a !== b) a = b = a + b; else a = b = 0;
 // console.log(a,b)
 
@@ -143,15 +143,15 @@
 // if (c > b && c > a) console.log(c, kichikson);
 
 // 15 //
-let a = 9;
-let b = 16;
-let c = 47;
+// let a = 75;
+// let b = 70;
+// let c = 40;
 
-// a + b > a + c yoki b + c
-// a + c > a + b yoki b + c
-// b + c > b + a yoki a + b
+// if (a < b && a < c) console.log(b, c, b + c); else 
+// if (b < a && b < c) console.log(a, c, a + c); else 
+// if (c < a && c < b) console.log(a, b, a + b);
 
-if (a + b > a + c && b + c) console.log(a, b);
-if (a + c > a + b && b + c) console.log(a, c);
-if (b + c > b + a && a + b) console.log(b, c);
- 
+// 16 //
+// let a = 75;
+// let b = 70;
+// let c = 40;
