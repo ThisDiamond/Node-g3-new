@@ -50,12 +50,18 @@ aside .nav .nav-item i:hover {
   padding: 10px;
   border: 1px solid silver;
 }
+.wide {
+  background-color: crimson;
+  color: white;
+  grid-column: span 2;
+  grid-row: span 2;
+}
 
 @media screen and (max-width: 1024px) {
   .content {
     width: 90%;
   }
-  .cards{
+  .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -74,7 +80,7 @@ aside .nav .nav-item i:hover {
   .nav-item {
     flex-grow: 1;
   }
-  .cards{
+  .cards {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -85,7 +91,7 @@ aside .nav .nav-item i:hover {
   aside .nav .nav-item span {
     display: none;
   }
-  .cards{
+  .cards {
     grid-template-columns: 1fr;
   }
 }

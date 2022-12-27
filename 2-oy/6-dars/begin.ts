@@ -102,3 +102,41 @@ export {};
 // let R = Math.sqrt(Math.PI/S)
 // let d = R*2
 // console.log(R)
+
+// 16 //
+// let x1:number = 6
+// let x2:number = 9
+// console.log(Math.abs(x2-x1))
+
+// 17 //
+// let a = 6
+// let b = 10
+// let c = 8
+
+// 17 //
+// let a = 6
+// let b = 10
+// let c = 8
+
+// 18 //
+// 19 //
+
+// 20 //
+// let x1:number = 9
+// let x2:number = 16
+// let y1:number = 3
+// let y2:number = 9
+// console.log(Math.abs((x2-x1)**2+(y2-y1)**2))
+
+// 21 //
+let x1:number = 9
+let x2:number = 16
+let x3:number = 8
+
+let y1:number = 3
+let y2:number = 9
+let y3:number = 12
+let p:number = 0
+let S:number = 0
+console.log()
+

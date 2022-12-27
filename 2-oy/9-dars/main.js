@@ -147,11 +147,43 @@
 // let b = 70;
 // let c = 40;
 
-// if (a < b && a < c) console.log(b, c, b + c); else 
-// if (b < a && b < c) console.log(a, c, a + c); else 
+// if (a < b && a < c) console.log(b, c, b + c); else
+// if (b < a && b < c) console.log(a, c, a + c); else
 // if (c < a && c < b) console.log(a, b, a + b);
 
 // 16 //
 // let a = 75;
 // let b = 70;
 // let c = 40;
+
+// if (a < b && b < c) {
+//   a = a * 2;
+//   b = b * 2;
+//   c = c * 2;
+// } else {
+//   a = a * -1;
+//   b = b * -1;
+//   c = c * -1;
+// }
+// console.log(a,b,c)
+
+// 17 //
+// let a = 75;
+// let b = 70;
+// let c = 40;
+
+// if ((a < b && b < c) || (a > b && b > c)) {
+//   a = a * 2;
+//   b = b * 2;
+//   c = c * 2;
+// } else {
+//   a = a * -1;
+//   b = b * -1;
+//   c = c * -1;
+// }
+// console.log(a, b, c);
+
+// 18 //
+let a = 75;
+let b = 70;
+let c = 40;

@@ -40,19 +40,18 @@
 // console.log(a % 2 == 1 && b % 2 == 1);
 
 // 9 //
-let a = 2;
-let b = 10;
-let aa = true
-let bb = true
+// let a = 2;
+// let b = 10;
+// let aa = true
+// let bb = true
 
-if (a % 2 == 0) {
-   aa = (b % 2 == 1)
-}else{
-   bb = (b % 2 == 1)
-}
+// if (a % 2 == 0) {
+//    aa = (b % 2 == 1)
+// }else{
+//    bb = (b % 2 == 1)
+// }
 
-
-a % 2 == 0 || b % 2 == 0;
+// a % 2 == 0 || b % 2 == 0;
 
 // 10 //
 // let a = 4;
@@ -60,11 +59,13 @@ a % 2 == 0 || b % 2 == 0;
 // console.log(a % 2 == 1 || b % 2 == 1);
 
 // 11 //
-// let a = 3;
-// let b = 8;
+// let a = 1;
+// let b = 1;
 // console.log(
-//     (a % 2 == 1 && b % 2 == 1) || (a % 2 == 0 && b % 2 == 0)
-//     ? 'ikkila son ham juft':'ikkila son ham toq'
+//     (a % 2 == 1 && b % 2 == 1) ? 'ikkila son ham tok' :
+//     (a % 2 == 0 && b % 2 == 0) ? 'ikkila son ham juft':
+//     'xatolik'
+
 // );
 
 // 12 //
@@ -114,21 +115,43 @@ a % 2 == 0 || b % 2 == 0;
 // let b = 1;
 // let c = 1;
 // console.log(
-//     ((a = b) && (a = c)) ||
-//     ((b = a) && (b = c)) ||
-//     ((c = a) && (c = b))
+//     ((a == b) && (a == c)) ||
+//     ((b == a) && (b == c)) ||
+//     ((c == a) && (c == b))
 // );
 
 // 19 //
-// let A = 0;
+// let A = 1;
 // let B = 1;
 // let C = 1;
 // console.log(
-//     (A==(-1)*B)||(A==(-1)*C)||(B==(-1)*C)
+//     (A==(-1)*B)||
+//     (A==(-1)*C)||
+//     (B==(-1)*C)
 // )
 
 // 20 //
-// let a = 564;
+// let a = 155;
 // let yuz = Math.floor(a / 100);
-// let on = Math.floor(a - (yuz * 100) / 10);
-// console.log(on);
+// let on = Math.floor((a - yuz * 100) / 10);
+// let birlik = a - (yuz * 100 + on * 10);
+// console.log(
+//    (yuz !== on) && (on !== birlik) &&(yuz !== birlik)
+// );
+
+// 21 //
+// let a = 165;
+// console.log((a / 100 < (a % 100) / 10) & ((a % 100) / 10 < a % 10));
+
+// 22 //
+// let A = 151;
+// console.log(
+//   ((A / 100 > (A % 100) / 10) & ((A % 100) / 10 > A % 10)) ||
+//     ((A / 100 < (A % 100) / 10) & ((A % 100) / 10 < A % 10))
+// );
+
+// 23 //
+// let A = 151;
+// console.log(
+//    A%10==A/1000 & A%100/10 == A%1000/100
+// )
